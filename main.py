@@ -93,6 +93,7 @@ def histogram_generator(report: dict):
     ax.set_xlabel('Test cases')
     ax.set_title(f'New test cases for {WEEKS_REPORT} weeks')
     fig.set_size_inches(h=6, w=12, forward=True)
+    plt.savefig('report.png')
     plt.show()
 
 
